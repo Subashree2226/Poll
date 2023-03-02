@@ -1,0 +1,86 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+/* body */
+body {
+   font-family: 'Poppins', sans-serif;
+   background: #181818;
+   color: #f1f1f1;
+}
+/* Default Reduce*/
+* {
+   box-sizing: border-box
+}
+/* Form */
+.first{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+/* Input Box */
+input[type=text],
+input[type=password] {
+   width: 25%;
+   font-size: 18px;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   display: flex;
+   border: none;
+   background: #272727;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+}
+/* Label */
+label {
+   font-size: 15px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+   background-color: #181818;
+   outline: none;
+}
+/* Signup line */
+hr {
+   border: 1px solid;
+   margin-bottom: 25px;
+}
+/* button */
+button {
+   font-size: 18px;
+   font-weight: bold;
+   background-color: #F39C12;
+   color: white;
+   padding: 10px 10px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 15%;
+   opacity: 0.9;
+   border-radius: 5px;
+}
+
+button:hover {
+   opacity: 1;
+}
+/* Cancel button */
+.cancel {
+   padding: 10px 10px;
+   background-color: #F39C12;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+}
+/* Signup Button */
+.signup {
+   padding: 10px 10px;
+   background-color: #F39C12;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+}
+ 
+
